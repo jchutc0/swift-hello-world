@@ -12,6 +12,8 @@
 		C98DEB3B1CF4EEE500F47753 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C98DEB391CF4EEE500F47753 /* Main.storyboard */; };
 		C98DEB3D1CF4EEE500F47753 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C98DEB3C1CF4EEE500F47753 /* Assets.xcassets */; };
 		C98DEB401CF4EEE500F47753 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C98DEB3E1CF4EEE500F47753 /* LaunchScreen.storyboard */; };
+		C9D2D3DB1CF657BA001FD06D /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = C9D2D3DA1CF657BA001FD06D /* cat.png */; };
+		C9D2D3DD1CF6597D001FD06D /* Age Person.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9D2D3DC1CF6597D001FD06D /* Age Person.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		C98DEB3C1CF4EEE500F47753 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C98DEB3F1CF4EEE500F47753 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C98DEB411CF4EEE500F47753 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9D2D3DA1CF657BA001FD06D /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cat.png; path = ../../../../Desktop/cat.png; sourceTree = "<group>"; };
+		C9D2D3DC1CF6597D001FD06D /* Age Person.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Age Person.jpg"; path = "../../../../Desktop/Age Person.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				C98DEB351CF4EEE500F47753 /* AppDelegate.swift */,
 				C98DEB371CF4EEE500F47753 /* ViewController.swift */,
+				C9D2D3DA1CF657BA001FD06D /* cat.png */,
+				C9D2D3DC1CF6597D001FD06D /* Age Person.jpg */,
 				C98DEB391CF4EEE500F47753 /* Main.storyboard */,
 				C98DEB3C1CF4EEE500F47753 /* Assets.xcassets */,
 				C98DEB3E1CF4EEE500F47753 /* LaunchScreen.storyboard */,
@@ -125,6 +131,8 @@
 			files = (
 				C98DEB401CF4EEE500F47753 /* LaunchScreen.storyboard in Resources */,
 				C98DEB3D1CF4EEE500F47753 /* Assets.xcassets in Resources */,
+				C9D2D3DB1CF657BA001FD06D /* cat.png in Resources */,
+				C9D2D3DD1CF6597D001FD06D /* Age Person.jpg in Resources */,
 				C98DEB3B1CF4EEE500F47753 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,6 +303,7 @@
 				C98DEB461CF4EEE500F47753 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -9,10 +9,19 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var ageTextField: UITextField!
+    @IBOutlet weak var ageLabel: UILabel!
 
+    @IBAction func Submit(sender: AnyObject) {
+        print("Button tapped")
+        ageLabel.text = ageTextField.text
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        print("Hello Casey!")
+
+        
     }
 
     override func didReceiveMemoryWarning() {
